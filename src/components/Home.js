@@ -7,16 +7,13 @@ export default class Home extends Component{
   render(){
     return (
 
-        <div className="App">
-          <header className="App-header">
-            <p>
-              This website is a work in progress!
-            </p>
-            <Link to="/about">
-              <Button bsStyle="primary">About</Button> 
-            </Link>
-          </header>
-        </div>
+        <Container>
+          <Jumbotron>
+            <h2>Welcome to my website!</h2>
+
+
+          </Jumbotron>
+        </Container>
     );
   }
 }
