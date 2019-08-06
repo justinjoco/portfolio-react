@@ -7,7 +7,7 @@ export default class Skills extends Component{
   render(){
     return (
 
-        <Container>
+        <Container fluid>
           <Jumbotron>
             <h1>Skills</h1>
             </Jumbotron>

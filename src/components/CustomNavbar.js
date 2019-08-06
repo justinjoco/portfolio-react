@@ -11,11 +11,9 @@ export default class CustomNavbar extends Component{
 			<Navbar bg="light">
 			  <Navbar.Brand href="#"><img src={logo} alt="Logo"/></Navbar.Brand>
 			  <Navbar.Toggle/>
-				<Navbar.Collapse className="justify-content-end">
-					<Nav className="justify-content-end" activeKey="/home">
-						<Nav.Item>
-							<Nav.Link href="/">Home</Nav.Link>
-						</Nav.Item>
+				<Navbar.Collapse >
+					<Nav className="mr-auto" activeKey="/home">
+
 						<Nav.Item>
 							<Nav.Link href="#about">About</Nav.Link>
 						</Nav.Item>
@@ -28,8 +26,16 @@ export default class CustomNavbar extends Component{
 						<Nav.Item>
 							<Nav.Link href="#experiences">Experiences</Nav.Link>
 						</Nav.Item>
+							<Nav.Item>
+							<Nav.Link href="#extracurriculars">Github</Nav.Link>
+						</Nav.Item>
+						</Nav>
+						<Nav>
 						<Nav.Item>
-							<Nav.Link href="#contact">Contact</Nav.Link>
+							<Nav.Link href="#contact">Contact Me</Nav.Link>
+						</Nav.Item>
+						<Nav.Item>
+							<Nav.Link href="https://github.com/justinjoco">Github</Nav.Link>
 						</Nav.Item>
 					</Nav>
 				</Navbar.Collapse>

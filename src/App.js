@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import Extracurriculars from "./components/Extracurriculars";
 
 class App extends Component{
   render(){
@@ -23,6 +23,7 @@ class App extends Component{
         <Route path="/skills" component={Skills}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/experiences" component={Experiences}/>
+        <Route path="/extracurriculars" component={Extracurriculars}/>
         <Route path="/contact" component={Contact}/>
         <Footer />
       </div>
