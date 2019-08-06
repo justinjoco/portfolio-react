@@ -7,10 +7,10 @@ export default class Footer extends Component{
   render(){
     return (
 
-        <Container>
-          <Jumbotron>
-            <h1>Footer</h1>
-            </Jumbotron>
+        <Container fluid>
+          
+            <h1 class="text-center">Contact</h1>
+            
         </Container>
     );
   }

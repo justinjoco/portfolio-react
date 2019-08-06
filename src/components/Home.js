@@ -11,7 +11,10 @@ export default class Home extends Component{
           position: 'absolute', 
           top: '50%', 
           color: "white",
-          textShadow: "1px 1px 10px #000"
+          transform: "translateY(-50)",
+          textShadow: "1px 1px 10px #000",
+          textAlign: "center",
+
 
         };
     return (
@@ -29,15 +32,15 @@ export default class Home extends Component{
       
    
         <div style={{display: 'flex',  justifyContent:'center'}}>
+
             <Image 
-              className="d-block w-100"
               fluid
               src={background_mac}>
             </Image>
             <div style={textStyle}>
-            	<h1 class="display-1" >Justin Joco</h1>
-            	<h1>Developer and Learner</h1>
-            	<Button>RESUME</Button>
+            	<h1 class="display-1">Justin Joco</h1>
+            	<h3>Developer and Learner</h3>
+            	<a href="https://drive.google.com/open?id=1yr4P_Ja09330boHVQcJpRsYAil_Dl32h"><Button>RESUME</Button></a>
             </div>
         </div>
         
