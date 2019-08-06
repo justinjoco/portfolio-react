@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://justinjoco.github.io/portfolio-react/",
+  "homepage": "https://justinjoco.github.io/portfolio-react-dev/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

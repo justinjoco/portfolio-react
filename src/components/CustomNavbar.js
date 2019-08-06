@@ -28,6 +28,9 @@ export default class CustomNavbar extends Component{
 						<Nav.Item>
 							<Nav.Link href="#experiences">Experiences</Nav.Link>
 						</Nav.Item>
+						<Nav.Item>
+							<Nav.Link href="#contact">Contact</Nav.Link>
+						</Nav.Item>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>

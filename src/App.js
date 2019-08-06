@@ -8,6 +8,9 @@ import Navbar from "./components/CustomNavbar";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 
 class App extends Component{
   render(){
@@ -20,6 +23,8 @@ class App extends Component{
         <Route path="/skills" component={Skills}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/experiences" component={Experiences}/>
+        <Route path="/contact" component={Contact}/>
+        <Footer />
       </div>
      </Router>
     );
