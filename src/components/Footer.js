@@ -32,7 +32,7 @@ export default class Footer extends Component{
 	      <p>Gmail: justin.joco@gmail.com</p>
 	      <p>School: jaj263@cornell.edu</p>
 	      <ColoredLine color="white"/>
-	      <p><I>Built with React and React-Bootstrap. <a href="https://justinjoco.github.io/" style={{color:"#0cf"}}>Archived website.</a> </I></p>
+	      <p><I>Built with React and React-Bootstrap. <a href="https://justinjoco.github.io/portfolio-archived/" style={{color:"#0cf"}}>Archived website.</a> </I></p>
 	      <h6>{'\u00A9'} Justin Joco. All rights reserved.</h6>
         </Container>
     );

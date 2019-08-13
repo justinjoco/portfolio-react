@@ -31,12 +31,9 @@ export default class Home extends Component{
         
       
    
-        <div style={{display: 'flex',  justifyContent:'center'}}>
+        <Container fluid style={{display: 'flex',  justifyContent:'center', backgroundColor:"#d3d3d3"}}>
 
-            <Image 
-              fluid
-              src={background_mac}>
-            </Image>
+            <img src={background_mac} alt="Logo"/>
             <div style={textStyle}>
             	<h1 class="display-1">Justin Joco</h1>
             	<h3>Developer and Learner</h3>
@@ -45,7 +42,7 @@ export default class Home extends Component{
             	<a href="https://drive.google.com/open?id=1yr4P_Ja09330boHVQcJpRsYAil_Dl32h"><Button variant="secondary">RESUME</Button></a>
               
             </div>
-        </div>
+        </Container>
         
 		 
     );
