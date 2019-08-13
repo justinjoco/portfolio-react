@@ -7,10 +7,10 @@ export default class Skills extends Component{
   render(){
     return (
 
-        <Container fluid>
-          <Jumbotron>
+        <Container fluid style={{textAlign:"center", padding: "20px"}}>
+     
             <h1>Skills</h1>
-            </Jumbotron>
+          
         </Container>
     );
   }

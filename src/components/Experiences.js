@@ -7,10 +7,10 @@ export default class Experiences extends Component{
   render(){
     return (
 
-        <Container>
-          <Jumbotron>
+        <Container fluid >
+          
             <h1>Experiences</h1>
-            </Jumbotron>
+           
         </Container>
     );
   }

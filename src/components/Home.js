@@ -38,9 +38,10 @@ export default class Home extends Component{
             	<h1 class="display-1">Justin Joco</h1>
             	<h3>Developer and Learner</h3>
              
-              <a href="#about"><Button variant="primary">About Me</Button></a>
-            	<a href="https://drive.google.com/open?id=1yr4P_Ja09330boHVQcJpRsYAil_Dl32h"><Button variant="secondary">RESUME</Button></a>
-              
+            
+              <Button variant="dark" href="#about" style={{margin: "5px"}}>About</Button>
+            	<Button variant="danger" href="https://drive.google.com/open?id=1k_1Ven5x4to1-103w9kb3SaBRciv47OD" style={{margin: "5px"}}>Resume</Button>
+            
             </div>
         </Container>
         

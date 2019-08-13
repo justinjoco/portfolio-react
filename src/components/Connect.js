@@ -3,14 +3,14 @@ import {Link} from "react-router-dom";
 import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
 
 
-export default class Contact extends Component{
+export default class Connect extends Component{
   render(){
     return (
 
-        <Container>
-          <Jumbotron>
-            <h1>Contact</h1>
-            </Jumbotron>
+        <Container fluid>
+       
+            <h1>Connect</h1>
+          
         </Container>
     );
   }

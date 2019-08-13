@@ -7,10 +7,10 @@ export default class Projects extends Component{
   render(){
     return (
 
-        <Container>
-          <Jumbotron>
+        <Container fluid>
+       
             <h1>Projects</h1>
-            </Jumbotron>
+            
         </Container>
     );
   }

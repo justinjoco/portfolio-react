@@ -22,7 +22,7 @@ export default class Footer extends Component{
     return (
 
         <Container fluid style={{textAlign:"center", color:"#efefef", backgroundColor: "#6a6c6e",  padding: "20px"
- }}>
+ 			}}>
           <h1 >Contact</h1>
           <img src={logo} alt="Logo"/>
           <ColoredLine color="white"/>

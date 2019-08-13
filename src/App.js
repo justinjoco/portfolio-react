@@ -5,12 +5,10 @@ import {HashRouter as Router, Route} from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Navbar from "./components/CustomNavbar";
-import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
-import Contact from "./components/Contact";
+import Connect from "./components/Connect";
 import Footer from "./components/Footer";
-import Extracurriculars from "./components/Extracurriculars";
 
 class App extends Component{
   render(){
@@ -20,11 +18,9 @@ class App extends Component{
         <Navbar />
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
-        <Route path="/skills" component={Skills}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/experiences" component={Experiences}/>
-        <Route path="/extracurriculars" component={Extracurriculars}/>
-        <Route path="/contact" component={Contact}/>
+        <Route path="/connect" component={Connect}/>
         <Footer />
       </div>
      </Router>

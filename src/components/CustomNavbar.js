@@ -26,7 +26,7 @@ export default class CustomNavbar extends Component{
 						</Nav>
 						<Nav>
 						<Nav.Item>
-							<Nav.Link href="#contact">Connect</Nav.Link>
+							<Nav.Link href="#connect">Connect</Nav.Link>
 						</Nav.Item>
 						<Nav.Item>
 							<Nav.Link href="https://github.com/justinjoco">Github</Nav.Link>
