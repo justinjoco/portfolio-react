@@ -40,7 +40,10 @@ export default class Home extends Component{
             <div style={textStyle}>
             	<h1 class="display-1">Justin Joco</h1>
             	<h3>Developer and Learner</h3>
-            	<a href="https://drive.google.com/open?id=1yr4P_Ja09330boHVQcJpRsYAil_Dl32h"><Button>RESUME</Button></a>
+             
+              <a href="#about"><Button variant="primary">About Me</Button></a>
+            	<a href="https://drive.google.com/open?id=1yr4P_Ja09330boHVQcJpRsYAil_Dl32h"><Button variant="secondary">RESUME</Button></a>
+              
             </div>
         </div>
         

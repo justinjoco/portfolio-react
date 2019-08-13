@@ -18,16 +18,10 @@ export default class CustomNavbar extends Component{
 							<Nav.Link href="#about">About</Nav.Link>
 						</Nav.Item>
 						<Nav.Item>
-							<Nav.Link href="#skills">Skills</Nav.Link>
-						</Nav.Item>
-						<Nav.Item>
 							<Nav.Link href="#projects">Projects</Nav.Link>
 						</Nav.Item>
 						<Nav.Item>
 							<Nav.Link href="#experiences">Experiences</Nav.Link>
-						</Nav.Item>
-							<Nav.Item>
-							<Nav.Link href="#extracurriculars">Github</Nav.Link>
 						</Nav.Item>
 						</Nav>
 						<Nav>
