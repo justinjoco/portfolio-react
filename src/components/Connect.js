@@ -7,7 +7,7 @@ export default class Connect extends Component{
   render(){
     return (
 
-        <Container fluid>
+        <Container fluid style={{textAlign:"center", padding: "20px"}}>
        
             <h1>Connect</h1>
           

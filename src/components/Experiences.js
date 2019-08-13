@@ -7,7 +7,7 @@ export default class Experiences extends Component{
   render(){
     return (
 
-        <Container fluid >
+        <Container fluid style={{textAlign:"center", padding: "20px"}}>
           
             <h1>Experiences</h1>
            
