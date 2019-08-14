@@ -5,11 +5,13 @@ import './Home.css';
 import background_mac from "./background_mac.jpeg"
 
 export default class Home extends Component{
+
+
   render(){
   	
         var textStyle = {
           position: 'absolute', 
-          top: '50%', 
+          top: '40vmin', 
           color: "white",
           transform: "translateY(-50)",
           textShadow: "1px 1px 10px #000",
@@ -17,6 +19,7 @@ export default class Home extends Component{
 
 
         };
+    const state = this.state;
     return (
 
     	/*
@@ -33,10 +36,10 @@ export default class Home extends Component{
    
         <Container fluid style={{display: 'flex',  justifyContent:'center', backgroundColor:"#d3d3d3"}}>
 
-            <img src={background_mac} alt="Logo"/>
+            <Image fluid src={background_mac} alt="Logo"/>
             <div style={textStyle}>
-            	<h1 class="display-1">Justin Joco</h1>
-            	<h3>Developer and Learner</h3>
+            	<h1 className="display-1" style={{fontSize: "10vmin"}}>Justin Joco</h1>
+            	<h3 style={{fontSize: "4vmin"}}>Developer and Learner</h3>
              
             
               <Button variant="dark" href="#about" style={{margin: "5px"}}>About</Button>
