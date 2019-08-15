@@ -9,7 +9,7 @@ export default class Skills extends Component{
 
         <Container fluid style={{textAlign:"center", padding: "20px"}}>
      
-            <h1>Skills</h1>
+            <h3>Skills</h3>
           
         </Container>
     );

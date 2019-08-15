@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
-import logo from './transparent_logo.png';
+import logo from './assets/transparent_logo.png';
 
 export default class Footer extends Component{
   	
@@ -24,7 +24,7 @@ export default class Footer extends Component{
         <Container fluid style={{textAlign:"center", color:"#efefef", backgroundColor: "#6a6c6e",  padding: "20px"
  			}}>
           <h1 >Contact</h1>
-          <img src={logo} alt="Logo"/>
+          <Image src={logo} alt="Logo"/>
           <ColoredLine color="white"/>
           <p>Justin-Anthony Ampil Joco</p>
 	      <p>U.S. Citizen</p>

@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Container, Carousel, Image, Button} from "react-bootstrap";
-import './Home.css';
-import background_mac from "./background_mac.jpeg"
+import background_mac from "./assets/background_mac.jpg"
 
 export default class Home extends Component{
 

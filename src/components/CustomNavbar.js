@@ -1,8 +1,7 @@
 import React, {Component} from "react";
 import {Navbar, Nav, NavItem, NavDropdown} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import logo from './transparent_logo.png';
-import './CustomNavbar.css';
+import logo from './assets/transparent_logo.png';
 
 
 export default class CustomNavbar extends Component{
