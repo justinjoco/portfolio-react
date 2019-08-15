@@ -8,10 +8,10 @@ import './CustomNavbar.css';
 export default class CustomNavbar extends Component{
 	render(){
 		return (
-			<Navbar bg="light">
+			<Navbar bg="light" expand="md">
 			  <Navbar.Brand href="#"><img src={logo} alt="Logo"/></Navbar.Brand>
-			  <Navbar.Toggle/>
-				<Navbar.Collapse >
+			  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+				<Navbar.Collapse>
 					<Nav className="mr-auto" activeKey="/home">
 
 						<Nav.Item>
@@ -23,6 +23,7 @@ export default class CustomNavbar extends Component{
 						<Nav.Item>
 							<Nav.Link href="#experiences">Experiences</Nav.Link>
 						</Nav.Item>
+						
 						</Nav>
 						<Nav>
 						<Nav.Item>
