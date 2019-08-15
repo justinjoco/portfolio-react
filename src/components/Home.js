@@ -11,7 +11,7 @@ export default class Home extends Component{
   	
         var textStyle = {
  
-          top: '30vmin', 
+          top: '25vmin', 
           color: "white",
       
           textShadow: "1px 1px 10px #000",
