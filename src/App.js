@@ -7,7 +7,6 @@ import About from "./components/About";
 import Navbar from "./components/CustomNavbar";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
-import Connect from "./components/Connect";
 import Footer from "./components/Footer";
 
 class App extends Component{
@@ -20,7 +19,6 @@ class App extends Component{
         <Route path="/about" component={About}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/experiences" component={Experiences}/>
-        <Route path="/connect" component={Connect}/>
         <Footer />
       </div>
      </Router>
