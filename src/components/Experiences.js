@@ -30,6 +30,7 @@ export default class Experiences extends Component{
 			    <Col md>
 			    <h3>T-Mobile US</h3>
 			    	<h5>Systems Architecture Engineering Intern</h5>
+			    	<h6>May - August 2019</h6>
 			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 			    	<p><B>Languages/Technologies</B>: Android SDK (Kotlin), React Native, Electron, AWS-Amplify, HockeyApp API, Git (Bitbucket)</p>
@@ -43,7 +44,7 @@ export default class Experiences extends Component{
 			    <Col md>
 			    <h3>JPMorgan Chase & Co.</h3>
 			    	<h5>Software Engineering Intern</h5>
-
+			    	<h6>June - August 2017</h6>
 			    	<p>I designed and implemented new features of the front-end of a then-prototype client-facing web portal (Data Once), which streamlines client account opening. I was thrust into this project and was able to quickly understand how the front-end integrated with the rest of the application. With the help of my Agile team, I learned Ember Bootstrap, jQuery, and other frameworks in order to build clean, intuitive user interfaces.</p>
 
 			    	<p>Although I was only a summer intern, I meaningfully advanced my project; JPMC implemented my changes and put the design into production.</p>
@@ -60,7 +61,7 @@ export default class Experiences extends Component{
 			    <Col md>
 			    <h3>Lincoln Financial Group</h3>
 			    	<h5>Enterprise Architecture Intern</h5>
-
+			    	<h6>June - August 2016</h6>
 			    	<p>At Lincoln Financial Group, I was thrown into an email service prototype project in Java. Though this was my first taste of software engineering and I only knew C, I quickly learned Java within three days by creating my own Blackjack game with betting, decisions, and a simple AI.</p>
 
 			    	<p>Due to this project and my team’s assistance, I was able to dissect the email’s codebase and figure out how each part meshed with one another. As a result, I significantly improved class documentation for future developer work.</p>
@@ -81,8 +82,9 @@ export default class Experiences extends Component{
 			    <Col>
 			    <h3>Cornell ECE</h3>
 			    <h5>Graduate Teaching Assistant</h5>
-			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+			    <h6>August 2018 - December 2019</h6>
+			    	<p>I lead recitations of 30-40 students, aid design of course content with the professor and peer teaching assistants, manage logistics, and hold office hours for material review. </p>
+			    	<p><B>Courses taught</B>: Computer Systems Programming in C/C++ (Fall 2019), Introduction to Probability and Inference for Random Signals and Systems (Spring 2019), Mathematics of Signals and Systems Analysis (Fall 2018)</p>
 			    </Col>
 
 
@@ -97,6 +99,7 @@ export default class Experiences extends Component{
 			    <Col md>
 			    <h3>Purdue IEEE Student Branch</h3>
 			    <h5>Learning Chair</h5>
+			    <h6>April 2017 - March 2018</h6>
 			    <p>As Learning Chair during Fall 2017 - Spring 2018, my role was to organize technical workshops to strengthen students’ skillsets. 
 			    I raised $5000+ total to fund events via industry and school sponsorship.
 			     In addition, I set precedents on technical event collaboration and workshop quality.
@@ -115,6 +118,7 @@ export default class Experiences extends Component{
 			    <Col md>
 			    <h3>Purdue Hackers</h3>
 			    <h5>Freshman Hackathon Python Mentor and Communications</h5>
+			     <h6>September 2017, Summer 2018</h6>
 			    <p>During summer 2018, I was on the Communications committee, whose duties included handling advertising, workshop organization, and volunteer management. I was liaised Purdue Hackers and IEEE in order to set up a workshop led by the IEEE Secretary.</p>
 			    <p>During the 2017 iteration, I led a Python workshop to teach freshman students basic-to-intermediate topics. In addition, I volunteered as a mentor to guide the freshmen through their first hackathon projects in a collaborative environment as a resource.</p>
 
