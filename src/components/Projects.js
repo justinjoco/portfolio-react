@@ -69,7 +69,7 @@ export default class Projects extends Component{
 			   <Card.Text>
 		       I prototyped the features, which included routing users to a community and gaving them options to display that area’s locations of interest and to show route back to hotel.
 		      </Card.Text> 
-		      	<a href=""><Button variant="primary" style={{margin: "5px"}}>Details</Button></a>
+		      	<a href="https://drive.google.com/file/d/1-AjMSllvR6Nlzw_mbkeCCSgcGCuy-R3J/view"><Button variant="primary" style={{margin: "5px"}}>Details</Button></a>
 		      	<a href="https://github.com/justinjoco/take_me_to_the_streets"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 			    </Card.Body>
 

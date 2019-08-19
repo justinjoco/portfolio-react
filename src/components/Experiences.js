@@ -31,7 +31,7 @@ export default class Experiences extends Component{
 			    <h3>T-Mobile US</h3>
 			    	<h5>Systems Architecture Engineering Intern</h5>
 			    	<h6>May - August 2019</h6>
-			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    	<p>This will be updated upon the internship's completion.</p>
 
 			    	<p><B>Languages/Technologies</B>: Android SDK (Kotlin), React Native, Electron, AWS-Amplify, HockeyApp API, Git (Bitbucket)</p>
 			    </Col>
