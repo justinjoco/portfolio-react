@@ -11,6 +11,8 @@ import ece_logo from "./assets/cornell_ece_logo.png";
 
 export default class Experiences extends Component{
   render(){
+  	const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
+    const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
     return (
 
         <Container fluid style={{textAlign:"center", padding: "20px"}}>
@@ -30,7 +32,7 @@ export default class Experiences extends Component{
 			    	<h5>Systems Architecture Engineering Intern</h5>
 			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-
+			    	<p><B>Languages/Technologies</B>: Android SDK (Kotlin), React Native, Electron, AWS-Amplify, HockeyApp API, Git (Bitbucket)</p>
 			    </Col>
 			  </Row>
 			  <br/>
@@ -45,7 +47,7 @@ export default class Experiences extends Component{
 			    	<p>I designed and implemented new features of the front-end of a then-prototype client-facing web portal (Data Once), which streamlines client account opening. I was thrust into this project and was able to quickly understand how the front-end integrated with the rest of the application. With the help of my Agile team, I learned Ember Bootstrap, jQuery, and other frameworks in order to build clean, intuitive user interfaces.</p>
 
 			    	<p>Although I was only a summer intern, I meaningfully advanced my project; JPMC implemented my changes and put the design into production.</p>
-
+			    	<p><B>Languages/Technologies:</B> HTML/CSS/JS, jQuery, Ember Bootstrap, Handlebars, Git (Bitbucket)</p>
 			    </Col>
 			  </Row>
 
@@ -62,7 +64,7 @@ export default class Experiences extends Component{
 			    	<p>At Lincoln Financial Group, I was thrown into an email service prototype project in Java. Though this was my first taste of software engineering and I only knew C, I quickly learned Java within three days by creating my own Blackjack game with betting, decisions, and a simple AI.</p>
 
 			    	<p>Due to this project and my team’s assistance, I was able to dissect the email’s codebase and figure out how each part meshed with one another. As a result, I significantly improved class documentation for future developer work.</p>
-
+			    	<p><B>Languages:</B> Java</p>
 			    </Col>
 			  </Row>
 

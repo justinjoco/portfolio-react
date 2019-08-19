@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Link} from "react-router-dom";
-import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
+
+import {Container, Image} from "react-bootstrap";
 import profile from "./assets/profile_pic.jpg";
 
 export default class Home extends Component{

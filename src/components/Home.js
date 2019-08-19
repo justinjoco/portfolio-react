@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import {Link} from "react-router-dom";
-import {Jumbotron, Container, Carousel, Image, Button, Row, Col} from "react-bootstrap";
+import {Carousel, Image, Button} from "react-bootstrap";
 import background_mac from "./assets/background_mac.jpg"
-import {FaFacebook, FaLinkedin, FaGithub} from "react-icons/fa";
 
 export default class Home extends Component{
 
@@ -35,29 +33,7 @@ export default class Home extends Component{
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>,
-        <Container fluid style={{textAlign:"center", padding: "20px"}}>
-          <h1>Connect</h1>
-          <Row>
-            <Col xs>
-              <FaFacebook size={"12vh"} color={"#0078FF"}/>
-
-            </Col>
-            <Col xs>
-               <FaLinkedin size={"12vh"} color={"#0077b5"}/>
-            
-            </Col>
-            <Col xs>
-               <FaGithub size={"12vh"} color={"#222"}/>
-            
-            </Col>
-
-
-
-          </Row>
-
-
-
-        </Container>
+    
 
         ]);
 
