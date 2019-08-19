@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
 import ieee_logo from "./assets/ieee_logo.png";
@@ -9,8 +9,8 @@ import phackers_logo from "./assets/purduehackerslogo.png";
 import ece_logo from "./assets/cornell_ece_logo.png";
 
 
-export default class Experiences extends Component{
-  render(){
+const Experiences = (props) => {
+
   	const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
     return (
@@ -83,7 +83,8 @@ export default class Experiences extends Component{
 			    <h3>Cornell ECE</h3>
 			    <h5>Graduate Teaching Assistant</h5>
 			    <h6>August 2018 - December 2019</h6>
-			    	<p>I lead recitations of 30-40 students, aid design of course content with the professor and peer teaching assistants, manage logistics, and hold office hours for material review. </p>
+			    	<p>As a graduate teaching assistant, I lead recitations of 30-40 students, aid design of course content with the professor and peer teaching assistants, manage logistics, and hold office hours for material review. Due to my academic background and leadership experiences at Purdue,
+			    	I successfully became a TA during my first semester at Cornell, and I have been ever since.</p>
 			    	<p><B>Courses taught</B>: Computer Systems Programming in C/C++ (Fall 2019), Introduction to Probability and Inference for Random Signals and Systems (Spring 2019), Mathematics of Signals and Systems Analysis (Fall 2018)</p>
 			    </Col>
 
@@ -131,7 +132,9 @@ export default class Experiences extends Component{
            	<br/>
         </Container>
     );
-  }
+  
 }
+
+export default Experiences;
 
 

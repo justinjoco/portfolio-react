@@ -1,16 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 import {Container, Image} from "react-bootstrap";
 import profile from "./assets/profile_pic.jpg";
 
-export default class Home extends Component{
-  render(){
+const About = (props) => {
+ 
     const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
     return (    
         <Container fluid style={{textAlign:"center", backgroundColor:"#ADD8E6", padding: "20px"}}>
 
-      <Image fluid width={200}src={profile} roundedCircle />
+          <Image fluid width={200}src={profile} roundedCircle />
 
 
           <h1 className="display-4">About Me</h1>
@@ -22,7 +22,8 @@ export default class Home extends Component{
         </Container>
         
     );
-  }
+  
 }
 
 
+export default About;

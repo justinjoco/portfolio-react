@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
 import logo from './assets/transparent_logo.png';
 import {FaFacebookSquare, FaLinkedin, FaGithubSquare} from "react-icons/fa";
 
-export default class Footer extends Component{
+const Footer = (props) => {
 
 
-  render(){
+
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
 
     const ColoredLine = ({ color }) => (
@@ -19,8 +19,6 @@ export default class Footer extends Component{
         }}
       />
     );
-
-
 
     return (
 
@@ -62,6 +60,7 @@ export default class Footer extends Component{
 	      <h6>{'\u00A9'} Justin Joco. All rights reserved.</h6>
         </Container>
     );
-  }
+  
 }
 
+export default Footer;

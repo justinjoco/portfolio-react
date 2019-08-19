@@ -9,8 +9,8 @@ import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Footer from "./components/Footer";
 
-class App extends Component{
-  render(){
+const App = () => {
+
     return (
      <Router>
       <div>
@@ -23,7 +23,7 @@ class App extends Component{
       </div>
      </Router>
     );
-  }
+  
 }
 
 export default App;

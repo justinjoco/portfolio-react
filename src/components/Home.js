@@ -1,22 +1,19 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Carousel, Image, Button} from "react-bootstrap";
 import background_mac from "./assets/background_mac.jpg"
 
-export default class Home extends Component{
-
-
-  render(){
-  	
-        var textStyle = {
+const Home = () =>{
  
-          top: '25vmin', 
-          color: "white",
-      
-          textShadow: "1px 1px 10px #000",
-          textAlign: "center",
+    var textStyle = {
+
+      top: '25vmin', 
+      color: "white",
+  
+      textShadow: "1px 1px 10px #000",
+      textAlign: "center",
 
 
-        };
+    };
 
     return ([<Carousel controls={false} indicators={false}>
           <Carousel.Item>
@@ -35,12 +32,14 @@ export default class Home extends Component{
         </Carousel>,
     
 
-        ]);
+    ]);
 
 
 		 
     
-  }
+  
 }
+
+export default Home;
 
 

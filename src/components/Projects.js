@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
-import {Jumbotron, Container, Row, Col, Image, Button, Card, CardDeck} from "react-bootstrap";
+import {Jumbotron, Container, Row, Col, Image, Button, Card, CardDeck, Modal} from "react-bootstrap";
 
 import energy_weather from "./assets/energy_weather.png";
 import take_me from "./assets/take_me.png";
@@ -13,11 +13,16 @@ import wsn_android from "./assets/wsn_android.jpg";
 import space_invaders from "./assets/space_invaders.png";
 import wear_weather from "./assets/wear_weather.png";
 
-export default class Projects extends Component{
 
 
 
-  render(){
+
+
+
+const Projects = (props) => {
+
+
+
     const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
 
@@ -153,7 +158,8 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      <Card.Text>
 	       I created the Android app that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area (incorporated Google Maps Android SDK)
 	      </Card.Text>
-	      <a href=""><Button variant="primary" style={{margin: "5px"}}>Demo</Button></a>
+	     <Button variant="primary" style={{margin: "5px"}}>Demo</Button>
+	      
 		   <a href="https://github.com/justinjoco/wildfire-sensor-net"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 	    </Card.Body>
 	    <Card.Footer>
@@ -169,7 +175,8 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      <Card.Text>
 	       The player can move left or right, barriers can be destroyed by either player or aliens, and alien speed and numbers are configurable. Game ends when the player destroys all aliens or aliens reach the ground. This involved threading, basic graphics, and game object manipulation. Sound effects and music are included.
 	      </Card.Text>
-	      	<a href=""><Button variant="primary" style={{margin: "5px"}}>Demo</Button></a>
+	      	<Button variant="primary" style={{margin: "5px"}} >Demo</Button>
+	      
 		   <a href="https://github.com/justinjoco/SpaceInvaders2"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 	    </Card.Body>
 
@@ -199,7 +206,9 @@ I also added configurable brush size and color, and enabled histogram re-calibra
             
         </Container>
     );
-  }
+  
 }
+
+export default Projects;
 
 
