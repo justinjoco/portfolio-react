@@ -7,7 +7,7 @@ import logo from './assets/transparent_logo.png';
 const CustomNavbar = (props) =>{
 
 	return (
-		<Navbar bg="light" expand="md">
+		<Navbar bg="light" expand="sm">
 		  <Navbar.Brand href="#"><img src={logo} alt="Logo"/></Navbar.Brand>
 		  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 			<Navbar.Collapse>
