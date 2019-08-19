@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState}  from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Container, Row, Col, Image, Button, Card, CardDeck, Modal} from "react-bootstrap";
 
@@ -15,8 +15,8 @@ import wear_weather from "./assets/wear_weather.png";
 
 
 
-
-
+import wsn_video from "./assets/wsn.mp4";
+import space_invaders_video from "./assets/space_invaders.m4v";
 
 
 const Projects = (props) => {
@@ -25,9 +25,12 @@ const Projects = (props) => {
 
     const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
-
+	const [wsnShow, setWsnShow] = useState(false);
+	const [spaceInvadersShow, setSpaceInvadersShow] = useState(false);
 
     return (
+
+
 
         <Container fluid style={{textAlign:"center", padding: "20px"}}>
        
@@ -156,10 +159,39 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	       <Card.Subtitle className="mb-2 text-muted">Awarded 3rd at Cornell’s Natural Disaster Preparedness Hackathon 2018</Card.Subtitle>
 
 	      <Card.Text>
-	       I created the Android app that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area (incorporated Google Maps Android SDK)
+	       I created the Android app module of this project that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area
 	      </Card.Text>
-	     <Button variant="primary" style={{margin: "5px"}}>Demo</Button>
-	      
+	     <Button variant="primary" style={{margin: "5px"}} onClick={() => setWsnShow(true)}>Demo</Button>
+
+			<Modal size="lg" show={wsnShow} onHide={() => setWsnShow(false)} aria-labelledby="example-modal-sizes-title-sm">
+				<Modal.Header closeButton>
+					<Modal.Title>
+					Wildfire Sensor Network
+					</Modal.Title>
+				</Modal.Header>
+				<Modal.Body><div
+		      className="video"
+		      style={{
+		        position: "relative",
+		        paddingBottom: "56.25%" /* 16:9 */,
+		        paddingTop: 25,
+		        height: 0
+		      }}
+		    >
+		      <iframe
+		        style={{
+		          position: "absolute",
+		          top: 0,
+		          left: 0,
+		          width: "100%",
+		          height: "100%"
+		        }}
+		        src={wsn_video}
+		        frameBorder="0"
+		      />
+	    </div></Modal.Body>
+			</Modal>
+
 		   <a href="https://github.com/justinjoco/wildfire-sensor-net"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 	    </Card.Body>
 	    <Card.Footer>
@@ -175,8 +207,40 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      <Card.Text>
 	       The player can move left or right, barriers can be destroyed by either player or aliens, and alien speed and numbers are configurable. Game ends when the player destroys all aliens or aliens reach the ground. This involved threading, basic graphics, and game object manipulation. Sound effects and music are included.
 	      </Card.Text>
-	      	<Button variant="primary" style={{margin: "5px"}} >Demo</Button>
-	      
+	      	<Button variant="primary" style={{margin: "5px"}} onClick={() => setSpaceInvadersShow(true)}>Demo</Button>
+
+			<Modal size="lg" show={spaceInvadersShow} onHide={() => setSpaceInvadersShow(false)} aria-labelledby="example-modal-sizes-title-sm">
+				<Modal.Header closeButton>
+					<Modal.Title>
+					Space Invaders
+					</Modal.Title>
+				</Modal.Header>
+				<Modal.Body> 
+			<div
+		      className="video"
+		      style={{
+		        position: "relative",
+		        paddingBottom: "56.25%" /* 16:9 */,
+		        paddingTop: 25,
+		        height: 0
+		      }}
+		    >
+		      <iframe
+		        style={{
+		          position: "absolute",
+		          top: 0,
+		          left: 0,
+		          width: "100%",
+		          height: "100%"
+		        }}
+		        src={space_invaders_video}
+		        frameBorder="0"
+		      />
+	    </div>
+
+    </Modal.Body>
+			</Modal>
+
 		   <a href="https://github.com/justinjoco/SpaceInvaders2"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 	    </Card.Body>
 

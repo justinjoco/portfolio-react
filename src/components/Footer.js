@@ -35,18 +35,18 @@ const Footer = (props) => {
 	      <ColoredLine color="white"/>
         <Row>
             <Col xs>
-              <a href="https://www.linkedin.com/in/justinjoco" target="_blank">
+              <a href="https://www.linkedin.com/in/justinjoco">
               <FaLinkedin size={"7vh"} color={"#0077b5"} style={{backgroundColor: "white"}}/>
               
               </a>
             </Col>
             <Col xs>
-              <a href="https://github.com/justinjoco" target="_blank">
+              <a href="https://github.com/justinjoco">
                <FaGithubSquare size={"7vh"} color={"#222"} style={{backgroundColor: "white"}}/>
               </a>
             </Col>
             <Col xs>
-            <a href="https://www.facebook.com/justin.anthony.joco" target="_blank">
+            <a href="https://www.facebook.com/justin.anthony.joco" >
                <FaFacebookSquare size={"7vh"} color={"#0078FF"} style={{backgroundColor: "white"}}/>
             </a>
             </Col>
