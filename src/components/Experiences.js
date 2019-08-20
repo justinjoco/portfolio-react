@@ -85,7 +85,7 @@ const Experiences = (props) => {
 			    <h6>August 2018 - December 2019</h6>
 			    	<p>As a graduate teaching assistant, I lead recitations of 30-40 students, aid design of course content with the professor and peer teaching assistants, manage logistics, and hold office hours for material review. Due to my academic background and leadership experiences at Purdue,
 			    	I successfully became a TA during my first semester at Cornell, and I have been ever since.</p>
-			    	<p><B>Courses taught</B>: Computer Systems Programming in C/C++ (Fall 2019), Introduction to Probability and Inference for Random Signals and Systems (Spring 2019), Mathematics of Signals and Systems Analysis (Fall 2018)</p>
+			    	<p><B>Courses</B>: <a href="https://www.csl.cornell.edu/courses/ece2400/">Computer Systems Programming in C/C++ </a>(Fall 2019), Introduction to Probability and Inference for Random Signals and Systems (Spring 2019), Mathematics of Signals and Systems Analysis (Fall 2018)</p>
 			    </Col>
 
 

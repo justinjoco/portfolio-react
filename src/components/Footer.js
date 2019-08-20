@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
 import logo from './assets/transparent_logo.png';
@@ -9,6 +9,9 @@ const Footer = (props) => {
 
 
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
+    const [linkedInColor, setLinkedInColor] = useState("#0077b5ff");
+    const [githubColor, setGithubColor] = useState("#222");
+    const [facebookColor, setFacebookColor] = useState("#0078FF");
 
     const ColoredLine = ({ color }) => (
       <hr
@@ -24,10 +27,10 @@ const Footer = (props) => {
 
         <Container fluid style={{textAlign:"center", color:"#efefef", backgroundColor: "#6a6c6e",  padding: "20px"
  			}}>
-          <h1 >Contact</h1>
-          <Image src={logo} alt="Logo"/>
-          <ColoredLine color="white"/>
-          <p>Justin-Anthony Ampil Joco</p>
+         <h1 >Contact</h1>
+         <Image src={logo} alt="Logo"/>
+        <ColoredLine color="white"/>
+        <p>Justin-Anthony Ampil Joco</p>
 	      <p>U.S. Citizen</p>
 	      <p>914-727-2032</p>
 	      <p>Gmail: justin.joco@gmail.com</p>
@@ -36,18 +39,18 @@ const Footer = (props) => {
         <Row>
             <Col xs>
               <a href="https://www.linkedin.com/in/justinjoco">
-              <FaLinkedin size={"7vh"} color={"#0077b5"} style={{backgroundColor: "white"}}/>
+              <FaLinkedin size={"7vh"} color={linkedInColor} style={{backgroundColor: "white"}} onMouseEnter={() => setLinkedInColor("#0077b57f")} onMouseLeave={() => setLinkedInColor("#0077b5")}/>
               
               </a>
             </Col>
             <Col xs>
               <a href="https://github.com/justinjoco">
-               <FaGithubSquare size={"7vh"} color={"#222"} style={{backgroundColor: "white"}}/>
+               <FaGithubSquare size={"7vh"} color={githubColor} style={{backgroundColor: "white"}} onMouseEnter={() => setGithubColor("#2220007f")} onMouseLeave={() => setGithubColor("#222")}/>
               </a>
             </Col>
             <Col xs>
             <a href="https://www.facebook.com/justin.anthony.joco" >
-               <FaFacebookSquare size={"7vh"} color={"#0078FF"} style={{backgroundColor: "white"}}/>
+               <FaFacebookSquare size={"7vh"} color={facebookColor} style={{backgroundColor: "white"}} onMouseEnter={() => setFacebookColor("#0078FF7f")} onMouseLeave={() => setFacebookColor("#0078FF")}/>
             </a>
             </Col>
 
