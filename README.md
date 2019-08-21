@@ -1,5 +1,5 @@
 # Justin Joco's Portfolio Website 2.x
-This website has been rebuilt from Bootstrap to React Bootstrap. Why? Because, why not?
+This website has been rebuilt from Bootstrap to React Bootstrap. This was done mostly to learn Reactjs and as a fun learning experience.
 Here's what's included:
 * A summary about me
 * Projects made at hackathons or classes
