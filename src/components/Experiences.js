@@ -31,7 +31,11 @@ const Experiences = (props) => {
 			    <h3>T-Mobile US</h3>
 			    	<h5>Systems Architecture Engineering Intern</h5>
 			    	<h6>May - August 2019</h6>
-			    	<p>This will be updated upon the internship's completion.</p>
+			    	<p>I built a mobile app and a desktop app end-to-end that integrate cloud storage APIs to streamline the internal releases of T-Mobile DIGITS' builds to QA.  
+			    	For code organization and app structure simplicity, I chose model-view-controller (MVC). 
+			    	 I used React Native for Android/iOS due to its cross-platform capabilities, shorter development time, and ready-made UI components. 
+			    	 For the desktop app, I picked the Electron framework since it can integrate with React. </p>
+			    	<p>Though I didn't know these technologies at the start, I quickly learned them through research and experimentation. As a result, I created user-friendly, simple native apps that decreased user time sink of the manual release process by more than 90% from 20-30 minutes down to less than 2 minutes.</p>
 
 			    	<p><B>Languages/Technologies</B>: Android SDK (Kotlin), React Native, Electron, AWS-Amplify, HockeyApp API, Git (Bitbucket)</p>
 			    </Col>
