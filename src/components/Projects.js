@@ -113,7 +113,7 @@ const Projects = (props) => {
 		    <Card.Img variant="top" src={vocoder} />
 		    <Card.Body>
 		      <Card.Title>A highly parallel hardware vocoder for real-time speech synthesis and visualization on a monitor</Card.Title>
-		       <Card.Subtitle className="mb-2 text-muted">Featured project on <a href="https://blog.hackster.io/our-5-favorite-cornell-university-student-fpga-projects-683cffcda0d2">Hackster.io article</a></Card.Subtitle>
+		       <Card.Subtitle className="mb-2 text-muted">Featured project in <a href="https://blog.hackster.io/our-5-favorite-cornell-university-student-fpga-projects-683cffcda0d2">Hackster.io article</a></Card.Subtitle>
 
 		      <Card.Text> This project included pitch-shifting and voice modulation through 32 IIR filters. I implemented a basic GPU in parallel with speech synthesizer by reading input audio to display the audio waveform and a 32-bin frequency spectrogram on an 8-bit color, 640x480 pixel monitor in real-time.
 			  </Card.Text>
