@@ -26,7 +26,7 @@ const Home = () =>{
                        
                       
                         <Button variant="dark" href="#about" style={{margin: "5px"}}>About</Button>
-                        <Button variant="danger" href="https://drive.google.com/open?id=1N8Q8KU1-OL6Tt9YIO3bMyirn7EuZHyHd" style={{margin: "5px"}}>Resume</Button>
+                        <Button variant="danger" href="https://drive.google.com/open?id=1GDuHzcNG2cZYs0UtkElK76sbslUixAsD" style={{margin: "5px"}}>Resume</Button>
                       
               </Carousel.Caption>
             </Carousel.Item>
