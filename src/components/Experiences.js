@@ -19,7 +19,32 @@ const Experiences = (props) => {
           
             <h1 className="display-4">Experiences</h1>
             <hr/>
+             <br/>
+             <h2>Full Time</h2>
+               <Row>
+			    <Col md>
+			     <Image fluid src={tmo_logo} alt="Logo"/>
+
+
+			    </Col>
+			    <Col md>
+			    <h3>T-Mobile US</h3>
+			    	<h4></h4>
+			    	<h5>Software Engineer Associate</h5>
+
+			    	<h6>January 2020 - Ongoing</h6>
+
+			    	<p>To be updated as I accomplish more things.</p>
+			    	<p><B>Languages/Technologies</B>: React, Electron, Redux, Git (Bitbucket)</p>
+			    	
+			    </Col>
+			  </Row>
+			
+
+
             <br/>
+            <hr/>
+             <br/>
             <h2>Internships</h2>
              <Row>
 			    <Col md>
@@ -38,6 +63,7 @@ const Experiences = (props) => {
 			    	<p>Though I didn't know these technologies at the start, I quickly learned them through research and experimentation. As a result, I created user-friendly, simple native apps that decreased user time sink of the manual release process by more than 90% from 20-30 minutes down to less than 2 minutes.</p>
 
 			    	<p><B>Languages/Technologies</B>: Android SDK (Kotlin), React Native, Electron, AWS-Amplify, HockeyApp API, Git (Bitbucket)</p>
+			   		
 			    </Col>
 			  </Row>
 			  <br/>
